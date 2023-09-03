@@ -1,0 +1,4 @@
+{
+  "name": "svelteparty-demo",
+  "main": "src/lib/server/partykit.ts"
+}
