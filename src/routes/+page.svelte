@@ -6,7 +6,7 @@
   // checks if we are in dev mode
   import { dev } from "$app/environment";
 
-  let name : string;
+  let name : string = "";
   let party_messages : string[] = [];
   
   let room_id : string | undefined = $page.url.searchParams.get("room_id") ?? undefined;
